@@ -1,3 +1,5 @@
+package character;
+
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.scene.image.Image;
@@ -6,7 +8,7 @@ import javafx.scene.layout.Pane;
 import javafx.util.Duration;
 
 /**
- * Represents the player character: the Dragon.
+ * Represents the player character: the character.Dragon.
  * Handles movement and sprite changes based on direction.
  */
 

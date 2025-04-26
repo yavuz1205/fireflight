@@ -1,9 +1,10 @@
+import gameLogic.Game;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
 /**
  * The entry point of the game.
- * Launches the JavaFX application and starts the Game.
+ * Launches the JavaFX application and starts the gameLogic.Game.
  */
 
 public class Main extends Application {

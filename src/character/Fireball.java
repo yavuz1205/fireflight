@@ -1,3 +1,5 @@
+package character;
+
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.scene.image.Image;
@@ -6,14 +8,14 @@ import javafx.scene.layout.Pane;
 import javafx.util.Duration;
 
 /**
- * Represents a fireball shot by the Dragon.
+ * Represents a fireball shot by the character.Dragon.
  * Animates through a series of images and moves upward until it leaves the screen.
  */
 
 public class Fireball extends ImageView {
     private int currentFrame = 0;  // To track current frame in animation
     private static final int NUM_FRAMES = 4; // fire0.png to fire3.png for looping
-    private final double SPEED = 10;  // Fireball speed
+    private final double SPEED = 10;  // character.Fireball speed
 
     private final Image[] fireballImages = new Image[NUM_FRAMES];
     private Timeline animationTimeline; // Controls sprite animation
@@ -49,7 +51,7 @@ public class Fireball extends ImageView {
                         animationTimeline.stop(); // Stop sprite animation
                         if (getParent() instanceof Pane pane) {
                             pane.getChildren().remove(this);
-                            System.out.println("Fireball removed! Parent after removal: " + getParent()); // Should print null, checking !!!!
+                            System.out.println("character.Fireball removed! Parent after removal: " + getParent()); // Should print null, checking !!!!
                         }
                     }
                 })

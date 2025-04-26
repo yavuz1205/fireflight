@@ -1,31 +1,31 @@
 src/
 ├── Main.java
-├── Game.java
+├── gameLogic.Game.java
 
-├── Dragon.java
-├── Fireball.java
+├── character.Dragon.java
+├── character.Fireball.java
 
 ├── Arrow.java ---> different sprites for different levels
 
-├── Boss.java
-├── Skeleton.java
-├── Spider.java
-├── Org.java
-├── Wizard.java
+├── boss.Boss.java
+├── boss.Skeleton.java
+├── boss.Spider.java
+├── boss.Org.java
+├── boss.Wizard.java
 
-├── Shot.java
-├── SpiderWebShot.java
-├── BoneArrowShot.java
-├── SlimeBallShot.java
-├── LightningShot.java
+├── shot.Shot.java
+├── shot.SpiderWebShot.java
+├── shot.BoneArrowShot.java
+├── shot.SlimeBallShot.java
+├── shot.LightningShot.java
 
-├── CollisionSystem.java
+├── gameLogic.CollisionSystem.java
 
-├── HUD.java
+├── gameLogic.HUD.java
 
 
 -start screen
 -arrow spawning, falling
 -collision detection
--HUD implementation: score, 3 hearts, health bar (heads up display)
+-gameLogic.HUD implementation: score, 3 hearts, health bar (heads up display)
 -boss trigger

@@ -1,3 +1,6 @@
+package gameLogic;
+
+import character.Dragon;
 import javafx.animation.AnimationTimer;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
@@ -69,7 +72,7 @@ public class Game {
         root.setBackground(new Background(backgroundImage));  // Apply the background to the pane
 
 
-        // Game loop
+        // gameLogic.Game loop
         AnimationTimer timer = new AnimationTimer() {
             @Override
             public void handle(long now) {
