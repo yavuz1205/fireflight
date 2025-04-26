@@ -1,0 +1,31 @@
+src/
+├── Main.java
+├── Game.java
+
+├── Dragon.java
+├── Fireball.java
+
+├── Arrow.java ---> different sprites for different levels
+
+├── Boss.java
+├── Skeleton.java
+├── Spider.java
+├── Org.java
+├── Wizard.java
+
+├── Shot.java
+├── SpiderWebShot.java
+├── BoneArrowShot.java
+├── SlimeBallShot.java
+├── LightningShot.java
+
+├── CollisionSystem.java
+
+├── HUD.java
+
+
+-start screen
+-arrow spawning, falling
+-collision detection
+-HUD implementation: score, 3 hearts, health bar (heads up display)
+-boss trigger
